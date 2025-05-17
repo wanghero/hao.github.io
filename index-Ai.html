@@ -1,160 +1,174 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Hao123美国</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/assets/css/style.css?v=67413075ad1d3c9670d5e303692c52e900122d24">
+    <title>Hao123.us - 美国网址导航</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            font-family: 'Open Sans', sans-serif;
-            margin: 0;
-            color: #2c3e50;
-            background-color: #f8f9fa;
+            font-family: 'Roboto', sans-serif;
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f8fa;
+            color: #333;
         }
-
         .page-header {
-            background: linear-gradient(120deg, #155799, #159957);
-            color: white;
-            padding: 40px 0;
-            text-align: center; /* 修改为居中对齐 */
+            text-align: center;
+            padding: 50px;
+            background: #157878;
+            color: #fff;
         }
-
-        .project-name {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
+        .page-header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-
-        .project-tagline {
-            font-size: 1.2rem;
-            font-weight: 400;
+        .page-header h1 img {
+            height: 40px;
+            margin-right: 15px;
         }
-
+        .page-header h2 {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
         .main-content {
-            padding: 20px;
-            max-width: 1000px;
-            margin: 0 auto;
-            text-align: left; /* 确保 main-content 中的内容默认为左对齐 */
+            width: 90%;
+            max-width: 1200px;
+            margin: 40px auto;
         }
-
-        .link-section {
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
         .link-section-title {
-            color: #157878;
-            border-bottom: 2px solid #e9ecef;
+            font-size: 1.8em;
+            border-bottom: 2px solid #e0e0e0;
             padding-bottom: 10px;
             margin-bottom: 20px;
-            font-size: 1.5rem;
+            color: #1e90ff;
         }
-
-        .link-list {
+        .link-section {
             display: flex;
             flex-wrap: wrap;
-            justify-content: flex-start; /* 保持左对齐 */
+            justify-content: space-between;
+        }
+        .link-list {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 15px;
         }
-
         .link {
-            font-size: 1rem;
-            display: inline-block;
-            margin: 10px;
-            padding: 12px 20px;
-            background: #ffffff;
+            background: #fff;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
         }
-
         .link:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
-
-        a {
-            color: #2c3e50;
+        .link a {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            text-decoration: none;
+            color: #515151;
+            font-size: 1.1em;
+        }
+        .link img.logo-sm {
+            height: 24px;
+            width: auto;
+            margin-right: 10px;
+        }
+        footer.site-footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            font-size: 0.9em;
+        }
+        footer.site-footer a {
+            color: #157878;
             text-decoration: none;
         }
-
-        a:hover {
-            color: #157878;
-        }
-
-        img.logo-sm {
-            height: 20px;
-            width: auto;
-            margin-right: 8px;
-            vertical-align: middle;
-        }
-
-        .site-footer {
-            text-align: center;
-            padding: 20px 0;
-            margin-top: 20px;
-            border-top: 1px solid #e9ecef;
-            color: #6c757d;
-        }
-
-        .site-footer-credits a {
-            color: #157878;
+        @media (max-width: 600px) {
+            .page-header {
+                padding: 30px;
+            }
+            .page-header h1 {
+                font-size: 2em;
+            }
+            .page-header h2 {
+                font-size: 1em;
+            }
         }
     </style>
-  </head>
-  <body>
-    <header class="page-header">
-      <h1 class="project-name">Hao123.us Ai导航</h1>
-            <h2 class="project-tagline"><div class="link"><a href="https://www.hao123.us/" target="_blank">www.hao123.us</a></div></h2>
-    </header>
-    <main class="main-content">
-         
- 
-        <h2 class="link-section-title"><a href="/index-Ai.html" target="_blank">常用Ai网站</a></h2>
-        <section class="link-section">
+</head>
+<body>
+    <section class="page-header">
+        <h1><a href="/" style="color: inherit; text-decoration: none;"><img src="/static/img/logo.png" alt="Hao123 Logo">Hao123.us 美国网址导航</a></h1>
+    </section>
+    <section class="main-content">
+  
+
+	<h2 class="link-section-title">AI 工具</h2>
+	<!-- begin link section -->
+	<div class="link-section">
+	    <!-- begin link list -->
+	    <div class="link-list">
+	        <div class="link"><a href="https://chat.openai.com/" target="_blank">ChatGPT（OpenAI 聊天生成器）</a></div>
+	        <div class="link"><a href="https://gemini.google.com/" target="_blank">Gemini（原 Google Bard）</a></div>
+	        <div class="link"><a href="https://claude.ai/" target="_blank">Claude（Anthropic 出品）</a></div>
+	        <div class="link"><a href="https://poe.com/" target="_blank">Poe（聚合多个AI模型）</a></div>
+	        <div class="link"><a href="https://www.perplexity.ai/" target="_blank">Perplexity（AI搜索+问答）</a></div>
+	        <div class="link"><a href="https://midjourney.com/" target="_blank">Midjourney（AI图像生成）</a></div>
+	        <div class="link"><a href="https://www.d-id.com/" target="_blank">D-ID（AI人脸动画/数字人）</a></div>
+	        <div class="link"><a href="https://runwayml.com/" target="_blank">Runway（视频生成与编辑）</a></div>
+	        <div class="link"><a href="https://www.canva.com/" target="_blank">Canva（带AI的设计平台）</a></div>
+	        <div class="link"><a href="https://github.com/features/copilot" target="_blank">GitHub Copilot（代码自动补全）</a></div>
+	        <div class="link"><a href="https://www.elevenlabs.io/" target="_blank">ElevenLabs（AI语音合成）</a></div>
+	        <div class="link"><a href="https://www.fotor.com/" target="_blank">Fotor AI（图像增强与创作）</a></div>
+	        <div class="link"><a href="https://www.writesonic.com/" target="_blank">Writesonic（AI写作）</a></div>
+	        <div class="link"><a href="https://www.copy.ai/" target="_blank">Copy.ai（营销文案生成）</a></div>
+	    </div>
+	    <!-- end link list -->
+	</div>
+	<!-- end link section -->
+
+
+
+
+      
+
+
+
+	<h2 class="link-section-title">导航站</h2>
+        <!-- begin link section -->
+        <div class="link-section">
+            <!-- begin link list -->
             <div class="link-list">
-                <div class="link"><a href="https://chat.openai.com/" target="_blank">ChatGPT</a></div>
-                <div class="link"><a href="https://gemini.google.com/" target="_blank">Gemini</a></div>
-                <div class="link"><a href="https://www.midjourney.com" target="_blank">Midjourney</a></div>
-                <div class="link"><a href="https://copilot.microsoft.com/" target="_blank">Copilot</a></div>
-                <div class="link"><a href="https://claude.ai/" target="_blank">Claude</a></div>
-                <div class="link"><a href="https://civitai.com/" target="_blank">CivitAI</a></div>
-                <div class="link"><a href="https://poe.com/" target="_blank">Poe</a></div>
-                <div class="link"><a href="https://llama3.dev/" target="_blank">在线Llama3</a></div>
-                <div class="link"><a href="https://api.together.ai/playground/chat/deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free" target="_blank">Together Ai</a></div>
+                <div class="link"><a href="https://ai-bot.cn/" target="_blank">ai-bot</a></div>
+                <div class="link"><a href="https://ai.xmsoushu.com/#/" target="_blank">ai.xmsoushu</a></div>
+                <div class="link"><a href="https://www.toolify.ai/" target="_blank">toolify.ai</a></div>
+                <div class="link"><a href="https://top.aibase.com/" target="_blank">top.aibase.com</a></div>
+
+                <div class="link"><a href="https://www.theporndude.com/" target="_blank">thePorndude</a></div>
+		<div class="link"><a href="https://www.141jj.com/" target="_blank">141jj</a></div>
+
+		<div class="link"><a href="https://amz123.com/" target="_blank">Amz123</a></div>
+
+		    
             </div>
-            </section>
-        <h2 class="link-section-title">杂七杂八</h2>
-        <section class="link-section">
-            <div class="link-list">
-                <div class="link"><a href="https://duckduckgo.com/?q=DuckDuckGo&ia=chat" target="_blank">DuckDuckGo的免费AI聊天</a></div>
-                <div class="link"><a href="https://llmpricecheck.com/" target="_blank">LLM价格</a></div>
-                <div class="link"><a href="https://imagetotext.cfd/" target="_blank">上传图片，返回图片的文字描述（英文）</a></div>
-                <div class="link"><a href="https://github.com/ihmily/outfit-anyone" target="_blank">模特换衣</a></div>
-                <div class="link"><a href="https://github.com/cs-lazy-tools/ChatGPT-On-CS" target="_blank">Ai客服，支持微信抖音小红书</a></div>
-                <div class="link"><a href="https://openperplex.com/" target="_blank">总结搜索引擎结果的Ai</a></div>
-                <div class="link"><a href="https://llmbook-zh.github.io/" target="_blank">Book:大语言模型</a></div>
-                <div class="link"><a href="https://github.com/amin2312/AI-Image-Generator?tab=readme-ov-file/" target="_blank">本地部署的图片生成器 支持Dall-E和SD</a></div>
-                <div class="link"><a href="https://github.com/zhbhun/rmbg" target="_blank">本地部署去除背景</a></div>
-                <div class="link"><a href="https://github.com/novicezk/midjourney-proxy" target="_blank">midjourney-proxy</a></div>
-            </div>
-            <h2 class="link-section-title">教程和资料</h2>
-        <section class="link-section">
-            <div class="link-list">
-                <div class="link"><a href="https://www.freedidi.com/12635.html" target="_blank">ChatGPT越狱提示词</a></div>
-        
-            </div>
-            </section>
-        <footer class="site-footer">
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a><a href="https://github.com/wanghero/hao.github.io/edit/master/index-Ai.html">....</a></span>
-      </footer>
-    </main>
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2f419238d5fb45b3945ab4c87355cdfc"}'></script></body>
+            <!-- end link list -->
+        </div>
+	<!-- end link section -->
+    </section>
+
+    <footer class="site-footer">
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a><a href="https://github.com/wanghero/hao.github.io/edit/master/index.html">....</a></span>
+    </footer>
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2f419238d5fb45b3945ab4c87355cdfc"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
 </html>
