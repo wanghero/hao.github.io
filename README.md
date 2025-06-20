@@ -12,4 +12,4 @@
 
 ## 联系方式
 
-欢迎联系 [your-email@example.com](mailto:index@hao123.us) 获取更多信息。
+欢迎联系 [admin@hao123.us](mailto:admin@hao123.us) 获取更多信息。
